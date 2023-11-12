@@ -2,7 +2,7 @@
 
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
-This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
+This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MongoDB
 
 Key Features:
 
@@ -22,7 +22,7 @@ Key Features:
 - Order creation
 - Stripe checkout
 - Stripe webhooks
-- MySQL + Prisma + PlanetScale
+- MongoDB + Prisma
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ STRIPE_WEBHOOK_SECRET=
 FRONTEND_STORE_URL=
 ```
 
-### Connect to PlanetScale and Push Prisma
+### Connect to MongoDB and Push Prisma
 ```shell
 npx prisma generate
 npx prisma db push
